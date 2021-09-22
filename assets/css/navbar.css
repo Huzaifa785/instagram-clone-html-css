@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ffffff;
+}
+
+.navbar {
+  background: #ffffff;
+  border-bottom: 0.1px solid lightgray;
+}
+
+.brand{
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 8px;
+  padding-bottom: 6px;
+  flex-wrap: wrap;
+}
+
+.nav-menu{
+    padding-top: 4px;
+}
+
+.nav-item {
+  font-size: 23px;
+  margin-right: 18px;
+  cursor: pointer;
+  margin-bottom: -3px;
+}
+
+.search-bar {
+  text-align: center;
+  color: black;
+  border: 1px solid #8e8e8e;
+  opacity: 0.6;
+  outline: none;
+  padding: 3px 10px;
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+.user-profile {
+  width: 23px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.fa-facebook-messenger {
+  color: white;
+  font-size: 23px;
+}
+
+.stroke-transparent {
+ -webkit-text-stroke: 1.8px #000;
+ -webkit-text-fill-color: transparent;
+}
